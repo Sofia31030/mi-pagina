@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Furcal Diaz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos del encabezado */
+header {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos del menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #764ba2;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
+<body>
+<div class="main">
+            <!-- Sección de contacto -->
+            <h2 id="contacto">Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, por favor llena el siguiente formulario:</p>
+
+            <div class="contact-form">
+                <form action="submit_form.php" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Tu mensaje"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <h2>Todos los derechos reservados Sofia Furcal</h2>
+    </div>
+</body>
+</html>
